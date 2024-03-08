@@ -9,7 +9,7 @@ class Movie:
         self.score = score
 
     def present(self):
-        print(f"Movie name: {self.name}, Year: {self.year}, Gender: {self.gender} Country: {self.country}, Score: {self.score}")
+        print(f"Movie name: {self.name}, Year: {self.year}, Gender: {self.gender}, Country: {self.country}, Score: {self.score}")
 
     def change_gender(self, new_gender):
         self.gender = new_gender

@@ -1,4 +1,8 @@
+from manager import Manager
+
 def main():
+
+    object = Manager()
 
     while True:
 
@@ -9,19 +13,20 @@ def main():
         3. Ask for all the movies of one specific year.
         4. Present one movie of the list.
         5. Change the type of the movie.
-        6. Exit.""")
+        6. Exit.
+        """)
 
         # Menu with functions
         if op == "1":
-            pass
+            object.create_movie()
         elif op == "2":
-            pass
+            object.verify_movie()
         elif op == "3":
-            pass
+            object.year()
         elif op == "4":
-            pass
+            object.present_movie()
         elif op == "5":
-            pass
+            object.ch_gender()
         elif op == "6":
             print("Thank you for using ous service")
             break
